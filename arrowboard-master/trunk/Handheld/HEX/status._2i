@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork -IC:\Keil\ARM\INC\Philips -I../SharedLibrary -DRADIO_V2 -DDEBUGOUT=3
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\Inc\Philips
+-o .\hex\status.o --omf_browse .\hex\status.crf --depend .\hex\status.d --feedback ".\HEX\Handheld.fed" "status.c"

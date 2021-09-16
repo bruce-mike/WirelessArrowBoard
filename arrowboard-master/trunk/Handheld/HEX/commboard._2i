@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork -IC:\Keil\ARM\INC\Philips -I../SharedLibrary -DRADIO_V2 -DDEBUGOUT=3
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\Inc\Philips
+-o .\hex\commboard.o --omf_browse .\hex\commboard.crf --depend .\hex\commboard.d --feedback ".\HEX\Handheld.fed" "commboard.c"

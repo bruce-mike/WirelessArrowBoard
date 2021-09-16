@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O2 --apcs=interwork -IC:\Keil\ARM\INC\Phillips -I../SharedLibrary -DRADIO_V2 -DPCBA_REV_K -DACCEL_BMA255
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\Inc\Philips
+-o .\accelerometer.o --omf_browse .\accelerometer.crf --depend .\accelerometer.d --feedback ".\DriverBoard.fed" "accelerometer.c"
